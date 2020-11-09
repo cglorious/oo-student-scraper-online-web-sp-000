@@ -30,7 +30,7 @@ class Scraper
         profile[:linkedin] = url
       elsif url.include?("github")
         profile[:github] = url
-      else 
+      else
         profile[:blog] = url
       end
     end
